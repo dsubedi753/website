@@ -95,8 +95,8 @@
               <em>2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)</em>, 2023
               <br>
               <a href="data/C7/AIM_2023.pdf", target = "_blank">paper</a> 
-          <!-- /
-              <a href="data/P3/SII_2022_present.pdf", target = "_blank">presentation</a> -->
+              /
+              <a href="data/C7/AIM_2023_presentation.pdf", target = "_blank">presentation</a> 
               <p></p>
               <p>This work is extension of <a href="#C5">previous iteration of signature pen project</a>. This iteration presents a working prototype of the signature pen along with better features used to authenticate users. 
                 The pen captures initial data of the motion while performing the signature, which is then processed through signal techniques to create interpretable features. These features train a neural network to authenticate user.
@@ -119,12 +119,41 @@
               <em>2022 44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)</em>, 2022
               <br>
               <a href="data/C5/EMBC_2022.pdf", target = "_blank">paper</a> 
-          <!-- /
-              <a href="data/P3/SII_2022_present.pdf", target = "_blank">presentation</a> -->
+              /
+              <a href="data/C5/EMBC_2022_poster.pdf", target = "_blank">poster</a> 
               <p></p>
               <p>The project proposes a writing stylus that authenticates users through unique inertial signature detection, leveraging the individuality of handwritten signatures. It features dual triaxial accelerometers to analyze stroke style, and writing speed, creating a distinct signature profile. The profile is used to determine if the signature is fake or not. Preliminary studies show a high accuracy of 95.7%, 100% sensitivity, and 90% recall, indicating its effectiveness in user identification and potential in enhancing cybersecurity.</p>
             </td>
           </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/I2.png" alt="MFCC" width="250" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://ieeexplore.ieee.org/document/9871781" id="C5", target = "_blank">
+                <papertitle>Quantum Sensor for Detection of Dark Matter </a></papertitle>
+              </a>
+              <br>
+              <strong>Divas Subedi</strong>, <a href="https://profiles.stanford.edu/kelly-stifter", target = "_blank">Kelly Stifter</a>
+              <br>
+              <em>Fermilab / SLAC, SIST 2022</em>, 2022
+              <br>
+              <a href="data/I2/FNAL_2022_QSDM_paper.pdf", target = "_blank">paper</a> / 
+              <a href="data/I2/FNAL_2022_QSDM_presentation.pdf", target = "_blank">presentation</a> / 
+              <a href="data/I2/FNAL_2022_QSDM_poster.pdf", target = "_blank">poster</a>
+              <p></p>
+              <p>This project investigated quantum sensor technologies for detecting light dark matter, focusing on Microwave Kinetic Inductance Detectors (MKIDs) coupled to cryogenic substrates. The goal was to understand phonon-mediated signal formation from sub-eV energy deposition events beyond the reach of traditional WIMP detectors.
+
+              <p>I developed a Monte Carlo simulation framework using Geant4 with the G4CMP library to model charge generation, phonon transport, and phonon collection in a simplified MKID detector geometry. Python was used to generate batch simulation macros, manage parameter sweeps (energy, interaction position, momentum), and perform data analysis and visualization.</p>
+
+              <p>The simulations produced spatial phonon hit profiles, collection time distributions, and energy spectra at the superconducting electrode, enabling characterization of detector response and sensitivity limits. This work helped identify modeling limitations in current G4CMP implementations and informed future detector and simulation refinements for sub-meV resolution dark matter searches.</p>
+            </td>
+          </tr>
+
+          
+
+
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -141,9 +170,31 @@
               <br>
               <a href="data/C4/SII_2022.pdf", target = "_blank">paper</a> 
           /
-              <a href="data/P3/SII_2022_present.pdf", target = "_blank">presentation</a>
+              <a href="data/C4/SII_2022_present.pdf", target = "_blank">presentation</a>
               <p></p>
               <p>This work is extension of <a href="#C3">previous iteration of contact sensing project</a>. In addition to expansion of feature space in baseline approach, MFCC are used to create better features. With more contact locations and features, the proposed method is promising, as it presents more complexity and discrimination at higher granularity of localization with higher accuracy.</p>
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/I1.jpg" alt="MFCC" width="250" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://ieeexplore.ieee.org/document/9871781" id="C5", target = "_blank">
+                <papertitle>GIZMo for DUNE at LBNF</a></papertitle>
+              </a>
+              <br>
+              <strong>Divas Subedi</strong>, Michael J. Utes, Paul M. Rubinov</a>
+              <br>
+              <em>Fermilab, SIST 2021</em>, 2022
+              <br>
+              <a href="data/I1/FNAL_2021_GIZMo_paper.pdf" target = "_blank">paper</a> / 
+              <a href="data/I1/FNAL_2021_GIZMo_presentation.pdf", target = "_blank">presentation</a> / 
+              <a href="data/I1/FNAL_2021_GIZMo_poster.pdf", target = "_blank">poster</a>
+              <p></p>
+              <p>This project involved the design and implementation of GIZMo (Ground Impedance Monitor) for the DUNE far detector, which requires a strict single-point grounding scheme to maintain low-noise operation. GIZMo monitors the impedance between detector ground and building ground in real time to detect unintended ground connections.</p>
+              <p>I developed the signal processing and impedance estimation pipeline using lock-in amplifier techniques, including quadrature demodulation and phase-based estimation. The system was modeled in LTSpice to study parasitic effects and select operating frequencies. I built Python tools (SciPy) for simulation, calibration, and nonlinear optimization of circuit parameters, including modeling a saturable inductor.The final system was deployed on a Zynq SoC, combining FPGA-based timing control with Linux-based Python DSP for real-time monitoring and alerts.</p>
             </td>
           </tr>
 
@@ -223,7 +274,7 @@
           /
               <a href="data/C1/COMSOL_2019_poster.pdf", target = "_blank">poster</a>
           /
-              <a href="data/P1/COMSOL_2019_presentation.pptx", target = "_blank">presentation</a>
+              <a href="data/C1/COMSOL_2019_presentation.pptx", target = "_blank">presentation</a>
               <p></p>
               <p>The effect of constant-field scaling on a FIBMOS (focused-ion-beam metal-oxide-semiconductor) device compared to the conventional MOSFET (metal-oxide-semiconductor field-effect transistor) is studied in this paper. A narrow P+ region with a higher doping concentration than the substrate is implanted next to the source region to implement FIBMOS. The simulation is conducted on a conventional MOSFET as well as a FIBMOS transistor for 122.5-nm, 175-nm, 245-nm, and 350-nm channel-length devices. The simulations show that the FIBMOS device demonstrates greater threshold voltage stability upon channel length variation, improved output resistance, greater resistance to the punch-through effect, and reduced hot electron degradation. </p>
             </td>
